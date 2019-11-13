@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8" >
+	<title>Css</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="main">
+		<h1 class="sazeH1 color  uppercase">Заголовок Н1</h1>
+		<h2 class="sazeH2 top2 color uppercase">Заголовок Н2</h2>
+		<h3 class="sazeH3 top3 color uppercase">Заголовок Н3</h3>
+		<h4 class="sazeH4 top4 color">Заголовок Н4</h4>
+		<h5 class="sazeH5 top5 color">Заголовок Н5</h5>
+		<h6 class="sazeH6 top6 color">Заголовок Н6</h6>
+
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+		<h2 class="top-form uppercase color sazeH2">форматирование текста</h2>
+
+		<p> Краткая демонстрация текстовых элементов / теги. Тег  <code class="Brown">&lt;p></code>  определяет текстовый абзац(создает новый параграф). Абзац является блочным элементом, всегда начинается с новой строки и имеет отсуп до и после себя.
+		</p>
+		
+		<p>Абзац не позволяет вкладывать внутрь себя такие элементы как address(информации об 	авторе), blockquote(блочная цитата), table(таблица), также другие абзаци <code class="Brown"> p > p</code>.<br>
+
+			Если вам нужно принудительно перевести строку текста на новую линию, без создания нового абзаца и <br>
+			вертикальных отступов между - используйте одинарный тег  <code class="Brown">&lt;br/></code>.
+		</p>
+		<p> Вы можете отформатировать текст используя такие теги как  <code class="Brown">&lt;i> / &lt;em></code> , чтобы сделать ваш текст наклонным,
+			вы также можете использовать  <code class="Brown">&lt;q></code>  - <q>строчные цитаты, которые в отличии от блочных, позволяют вложенность внутри абзаца</q>, при помощи тегов  <code class="Brown"> &lt;b> / &lt;strong></code>  - можно обозначить важный текст жирностью шрифта,
+			для <ins>подчеркивания текста</ins> используйте  <code class="Brown">&lt;u> / &lt;ins></code> , a <del>для перечеркивания</del> -  <code class="Brown">&lt;del> / &lt;s></code>  ,
+			Также можно  <mark>выделить нужную часть</mark> текста  возможно при помощи тега <code class="Brown"> &lt;mark></code></p>
+			Чтобы превратить ваш текст в гиперссылку, нужно использовать <a href="#">тег &lt;a></a>. Ссылка должна иметь обязательный атрибут  href="uri"  значение которого должен URI адрес вашей гиперссылки.
+
+			<p>Также можно использовать специальные теги  <code class="Brown">&lt;sup></code>  <sup>Отображает шрифт в виде верхнего индекса</sup> и   <code>&lt;sub></code>  <sub>Отображает шрифт в виде нижнего индекса.</sub>
+				Тег   <code class="Brown">&lt;small></code>  <small>уменьшает размер шрифта.</small></p>
+
+				<p>Тег   <code class="Brown">&lt;code></code>  предназначен для отображения одной или нескольких строк текста, который представляет собой программный код <br>
+					пример:<br>
+					чтобы узнать контекст объекта нужно вызвать   <code class="Brown">console.log(this);</code> .</p>
+
+					<p>Тег  <code class="perple">&lt;kbd></code>  используется для обозначения текста, который набирается на клавиатуре или для названия клавиш,<br>
+						пример:<br>
+						чтобы вызвать "Диспетчер задач" нажмите на клавиатуре вместе 3 клавиши -   <kbd class="perple">Ctrl + Alt + Del</kbd>.</p>
+
+						<p>Тег   <code class="dark-brown">&lt;samp></code>  используется для отображения текста, который является результатом вывода компьютерной программы или скрипта,
+							пример:
+							В результате провеверки мы определил, что <samp class="dark-brown"> ваш браузер поддерживает JavaScript</samp></p>
+
+							<p>Тег <code class="Brown">&lt;abbr></code> указывает, что <ins>ПС</ins> является аббревиатурой. С помощью атрибута title дается расшифровка сокращения, что позволяет понимать аббревиатуру тем людям, которые с ней не знакомы. Кроме того, поисковые системы индексируют полнотекстовый вариант сокращения, что может использоваться для повышения рейтинга документа.</p>
+
+							<p>Как правило, когда, в документе, упоминается новый термин, он выделяется курсивом и дается его определение. При использовании этого термина в дальнейшем, он считается уже известным читателю. Тег  <code class="Brown">&lt;dfn> </code> применяется для выделения таких терминов при их первом появлении в тексте. С помощью атрибута title вы можете дать более пожробную расшифровку термина.</p>
+
+							<p>Тег   <code class="Brown">&lt;address></code>  предназначен для хранения информации об авторе(НЕ адреса и контакты компании, прочее) и может включать в себя любые элементы HTML вроде ссылок, текста, выделений и т.д.</p>
+
+							<blockquote class="blockquote-style">Тег <code> &lt;blockquote></code> используется для обозначения цитат, длинных выписок, афоризмов и прочее, который создается в новом блоке с пробелами до и после.</blockquote>
+
+							<pre class="pre-color">Тег <code> &lt;pre></code> определяет блок предварительно форматированного текста.
+     Такой текст отображается обычно моноширинным шрифтом и со всеми пробелами между словами.
+         По умолчанию, любое количество пробелов идущих в коде подряд
+             	Тег <code> &lt;pre></code> позволяет обойти эту особенность и отображать текст
+                 	как требуется разработчику.</pre>
+
+
+							<h2 class="color uppercase margin-lists sazeH2">Списки</h2>
+
+							<h3 class="color sazeH4">Маркированный список</h3>
+
+							<ul>
+
+								<li><a href="https://wezom.com.ua" target="_blank">Веб - студия Wezom</a> - Продвижение, создание сайтов, разработка, раскрутка сайта</li>
+								<li><a href="#">Коворкинг - Центр Корова</a> - Аренда офиса, рабочего места в центре Херсона</li>
+								<li><a href="#">100bannerov</a> - Размещение бесплатной баннерной рекламы в интернете</li>
+								<li><a href="#">Wezom.mobile</a> - Разработка и создание мобильных приложений для android и ios устройств в Украине
+
+									<ul class="list-square">
+										<li>Lorem ipsum dolor sit</li>
+										<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit</li>
+										<li>Lorem ipsum dolor sit amet, consectetur
+
+											<ul class="list-circle">
+												<li>Повседневная практика показывает, что</li>
+												<li>Повседневная практика показывает, что постоянный количественный рост и сфера</li>
+												<li>Повседневная практика показывает, что постоянный количественный</li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+							</ul>
+
+							<h3 class="color margin-num sazeH4">Нумерованый список</h3>
+
+							<ol>
+
+								<li><a href="https://wezom.com.ua" target="_blank">Веб - студия Wezom</a> - Продвижение, создание сайтов, разработка, раскрутка сайта</li>
+								<li><a href="#">Коворкинг - Центр Корова</a> - Аренда офиса, рабочего места в центре Херсона</li>
+								<li><a href="#">100bannerov</a> - Размещение бесплатной баннерной рекламы в интернете</li>
+								<li><a href="#">Wezom.mobile</a> - Разработка и создание мобильных приложений для android и ios устройств в Украине
+
+									<ol>
+										<li>Lorem ipsum dolor sit</li>
+										<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit</li>
+										<li>Lorem ipsum dolor sit amet, consectetur
+
+											<ol>
+												<li>Повседневная практика показывает, что</li>
+												<li>Повседневная практика показывает, что постоянный количественный рост и сфера</li>
+												<li>Повседневная практика показывает, что постоянный количественный</li>
+											</ol>
+										</li>
+									</ol>
+								</li>
+							</ol>
+							<h3 class="color margin-num sazeH4">Список определений</h3>
+
+							<dl>
+								<dt class="definition">Что такое Тег?</dt>
+
+								<dd class="bottom">Тег — это специальный символ разметки, который применяется для вставки различных элементов на веб-страницу таких как: рисунки, таблицы, ссылки и др., и для изменения их вида.</dd>
+
+								<dt class="definition">Что такое HTML-документ?</dt>
+								<dd class="bottom">Обычный текстовый файл, который может содержать в себе текст, теги и стили. Изображения и другие объекты хранятся отдельно. Содержимое такого файла обычно называется HTML-код.</dd>
+
+								<dt class="definition">Что такое Сайт?</dt>
+								<dd class="bottom">Cайт — это набор отдельных веб-страниц, которые связаны между собой ссылками и единым оформлением.</dd>
+							</dl>
+							<h2 class="color uppercase margin-lists sazeH2">Таблицы</h2>
+
+							<table class="table-style">
+								<tr class="perple border-tr" >
+									<td>Заглавие таблицы</td>
+									<td>Заглавие таблицы</td>
+									<td>Заглавие таблицы</td>
+								</tr>
+								<tr>
+									<td>Данные вашей таблицы</td>
+									<td>Данные вашей таблицы</td>
+									<td>Данные вашей таблицы</td>
+								</tr>
+								<tr>
+									<td>Данные вашей таблицы</td>
+									<td>Данные вашей таблицы</td>
+									<td>Данные вашей таблицы</td>
+								</tr>
+								<tr>
+									<td>Данные вашей таблицы</td>
+									<td>Данные вашей таблицы</td>
+									<td>Данные вашей таблицы</td>
+								</tr>
+							</table>
+
+						</div>
+					</body>
+					</html>
